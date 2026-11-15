@@ -32,6 +32,7 @@ source = "https://github.com/DeportedToHell/MCRE-Mods/tree/dd8a13ebd07dd53b8ab13
 icon = "icons/dynamiclights.png"
 categories = ["utility", "decoration"]
 tags = ["lighting", "dynamic-lights", "torch", "visual", "better-dynamic-lights"]
+screenshots = ["screenshots/dynamiclights/1.jpg", "screenshots/dynamiclights/2.jpg", "screenshots/dynamiclights/3.jpg", "screenshots/dynamiclights/4.jpg"]
 
 [[versions]]
 version = "1.0.4"
