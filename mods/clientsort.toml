@@ -26,6 +26,7 @@ source = "https://github.com/DeportedToHell/MCRE-Mods/tree/b033b17c8a7d623fe3be4
 icon = "icons/clientsort.png"
 categories = ["utility", "storage"]
 tags = ["inventory", "sorting", "buttons", "port"]
+screenshots = ["screenshots/clientsort/1.jpg", "screenshots/clientsort/2.jpg", "screenshots/clientsort/3.jpg", "screenshots/clientsort/4.jpg"]
 
 [[versions]]
 version = "1.2.1"
