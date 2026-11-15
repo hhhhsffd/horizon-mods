@@ -22,6 +22,7 @@ source = "https://github.com/DeportedToHell/MCRE-Mods/tree/main/firstpersonmodel
 icon = "icons/firstpersonmodel.png"
 categories = ["decoration", "utility"]
 tags = ["first-person", "player-model", "camera", "immersion", "port"]
+screenshots = ["screenshots/firstpersonmodel/1.jpg", "screenshots/firstpersonmodel/2.jpg", "screenshots/firstpersonmodel/3.jpg", "screenshots/firstpersonmodel/4.jpg"]
 
 [[versions]]
 version = "1.0.0"
