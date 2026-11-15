@@ -1,0 +1,35 @@
+id = "spatial_gui"
+kind = "native-mod"
+name = "Spatial GUI"
+summary = "A native Rust port of Spatial GUI: interactive world-space menus with curved panels, player posing, profiles and a visual layout editor."
+description = """
+An independent Rust port of [Spatial GUI](https://github.com/tastytrash/Spatial-GUI) by tastytrash and contributors, maintained for Horizon by hhhhsffd.
+
+- Render inventory, creative and container menus as interactive flat or curved panels in the world, with first-person and third-person layouts.
+- Perspective-correct mouse interaction, camera transitions, player posing, depth occlusion, lighting, shadows and optional world blur.
+- Configure panel opacity over the third-person player or visible first-person hands; curvature supports forward and backward bends.
+- Edit layouts with mouse-operated gizmos, undo/redo and named profiles. Import the original mod's JSON5 configuration and profile format.
+- Open settings through Options > Mods > Spatial GUI (F7), the visual editor with F8 and the profile picker with Backtick.
+
+Tested on Horizon nightly-2026-11-13-9f42064, Minecraft data version 26.3. This bundle uses private renderer and input integrations and pins Horizon revision 9f42064c11efe7ef3e5ed2baad7ddc2a3b36eea0 and horizon-mixins revision e59da9094f0c2fdda6c627fe9eff22dec6a906f0. Other revisions are not validated. Native mods replacing the same camera, input or rendering systems may conflict. Java-specific integrations cannot run in Horizon; this release does not include newer upstream world-effect filters or the separate screen-manager UI.
+
+This is a native source mod: the launcher compiles it into the game. It is not sandboxed and runs with your account's permissions. Install only code you trust. Servers and other players do not need the mod.
+
+Credits: tastytrash and Spatial-GUI contributors, MIT License. Original port reference: 88eeb54a262eff78ac2857995d8d9d1dd533dd22; rendering fixes reviewed through abfe5ae9c46dac0fdcfa09f46c89598db791eead. The upstream MIT license is included in the bundle, and the listing uses the upstream icon. This independent port is not affiliated with the upstream authors, Mojang or Microsoft. No Minecraft game code or assets are distributed.
+"""
+authors = ["hhhhsffd", "tastytrash and Spatial-GUI contributors (original mod)"]
+owners = ["hhhhsffd"]
+owner_ids = [90867279]
+license = "MIT"
+source = "https://github.com/hhhhsffd/Spatial-GUI-Horizon"
+icon = "icons/spatial_gui.png"
+categories = ["utility", "decoration"]
+tags = ["gui", "inventory", "camera", "immersion", "profiles", "port"]
+
+[[versions]]
+version = "0.2.3"
+published = "2026-11-14"
+game = "26.3"
+file = "spatial_gui-0.2.3.hnmod"
+sha256 = "006cf4642bf80b91aa73038a9e199241a254180c9e663b7a17e7b0af68263951"
+changelog = "Update to Horizon nightly-2026-11-13-9f42064. Fix movement interpolation and player-relative transitions, configurable panel opacity over the player and first-person hands, backward/third-person curvature, settings clipping and HDR rendering."
