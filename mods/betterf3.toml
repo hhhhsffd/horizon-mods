@@ -22,6 +22,7 @@ source = "https://github.com/DeportedToHell/MCRE-Mods/tree/main/betterf3"
 icon = "icons/betterf3.png"
 categories = ["utility"]
 tags = ["f3", "debug", "hud", "customization", "port"]
+screenshots = ["screenshots/betterf3/1.jpg", "screenshots/betterf3/2.jpg", "screenshots/betterf3/3.jpg", "screenshots/betterf3/4.jpg"]
 
 [[versions]]
 version = "1.0.0"
