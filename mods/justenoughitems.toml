@@ -26,6 +26,7 @@ source = "https://github.com/DeportedToHell/MCRE-Mods/tree/e662a0c6672c8f2b0770f
 icon = "icons/justenoughitems.png"
 categories = ["utility"]
 tags = ["jei", "recipes", "item-list", "recipe-viewer", "search", "port"]
+screenshots = ["screenshots/justenoughitems/1.jpg", "screenshots/justenoughitems/2.jpg", "screenshots/justenoughitems/3.jpg", "screenshots/justenoughitems/4.jpg"]
 
 [[versions]]
 version = "1.1.2"
